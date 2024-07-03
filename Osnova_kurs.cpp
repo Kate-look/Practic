@@ -1,6 +1,6 @@
 // Osnova_kurs.cpp: главный файл проекта.
 
-#include "stdafx.h" //подключение библиотек
+#include "stdafx.h" //подключение библиотек 
 #include <stdio.h>
 #include <stdlib.h>
 #include <conio.h>
@@ -142,7 +142,7 @@ int main(array<System::String ^> ^args){
 
 	getch();
 
-	while(1) //в цикле создаем область для вопросов и окрашиваем е? в цвета
+	while(1) //в цикле создаем область для вопросов и окрашиваем ее в цвета
 		//устанавливаем для букв цвет и подсветку для выбранного вопроса
 	{
 		Console::ForegroundColor=ConsoleColor::Gray;
@@ -218,8 +218,7 @@ exit(0);
 
 
 //Список фильмов в жанре комедия c рейтингом выше 7.0
-void spisok_3(struct z* film, int NC)
-{
+void spisok_3(struct z* film, int NC){
 	Console::BackgroundColor=ConsoleColor::Yellow; // Устанавливаем цвет фона консоли на желтый
 	Console::ForegroundColor=ConsoleColor::Black; // Устанавливаем цвет текста консоли на черный
 	Console::Clear();
